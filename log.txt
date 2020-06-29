@@ -1,0 +1,11 @@
+expected example:
+go straight -> data matrix -> turn left ->
+go straight -> turn right -> reverse parking -> image classification -> snapshat -> leave ->
+go staight -> turn right -> keep going -> turn right and then left -> optional calibration -> object clarification ->
+leave -> complete
+
+失敗心得
+首先是器材方面，我的馬達調不到靜止，速度為0時還是會動，當我在試車時，他總是跑掉去撞牆。
+然後是openmv，或許是因為我對它的不了解，導致我在用它的時候一直出現fatal error，掃描matrix也經常跑不出東西。
+還有我自身code方面也要加強，在打完程式碼後不管debug多少次，總是很難編譯過關。
+最後希望自己之後再修嵌入二時能做的更好。
